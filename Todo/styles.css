@@ -1,0 +1,72 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: rgba(180, 212, 201, 0.832);
+}
+
+header {
+  background-color: #00ffff;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.safe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.box {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.add {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: green;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-container {
+  display: grid;
+  grid-template-columns: 200px 200px 100px;
+  grid-gap: 10px;
+  align-items: center;
+}
+
+.todo-container span, .todo-container button {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.todo-container button {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-container span{
+  padding: 10px;
+  border: 1px solid #000000;
+  
+  
+}
+.todo-container button {
+  padding: 10px;
+  border: 1px solid #ccc;
+ 
+  
+}
+
+
